@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <ImageView
+	        android:id="@+id/imagenRed"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:adjustViewBounds="true"
+	        android:background="@drawable/cc1"
+	        android:contentDescription="@null"
+	        android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/nombreRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombreRed" 
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/macRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAC" />
+
+            <TextView
+                android:id="@+id/seguridadRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seguridad: " />
+
+		</LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

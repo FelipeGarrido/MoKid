@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colores -->
+    <color name="white">#FFFFFF</color>
+    <color name="red">#E12127</color>
+    
+    <!-- String -->
+    <string name="app_name">Mokid</string>
+    <string name="action_settings">Settings</string>
+    <string name="tituloMain">MoKid</string>
+    <string name="tituloRedes">Redes Disponibles</string>
+    <string name="nombreRed">Nombre de la Red</string>
+
+</resources>
